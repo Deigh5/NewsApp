@@ -11,7 +11,6 @@ export const fetchNews = async (category: string) => {
         country: 'us',
         category,
         apiKey: API_KEY,
-        // Add any additional parameters needed to fetch full content
       },
     });
     return response.data.articles;
