@@ -23,7 +23,7 @@ const ArticleDetail: React.FC<ArticleDetailProps> = ({ route }) => {
   const handleSaveArticle = async () => {
     try {
       await saveFavoriteArticle(article);
-      alert("Article saved!");
+      alert("Article saved successfully!");
     } catch (error) {
       console.error("Failed to save article:", error);
       alert("Failed to save article.");
