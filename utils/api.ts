@@ -1,7 +1,8 @@
 import axios from 'axios';
+import { Variables } from '@/constants/Colors';
 
-const API_KEY = '835763c0e9814b3fb3c34bc2176704da';
-const BASE_URL = 'https://newsapi.org/v2';
+const API_KEY = Variables.API_KEY;
+const BASE_URL = Variables.BASE_URL;
 
 export const fetchNews = async (category: string) => {
   try {

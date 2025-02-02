@@ -11,3 +11,5 @@ export const getFavoriteArticles = async () => {
   const favorites = await AsyncStorage.getItem('favorites');
   return favorites ? JSON.parse(favorites) : [];
 };
+
+

@@ -24,3 +24,10 @@ export const Colors = {
     tabIconSelected: tintColorDark,
   },
 };
+
+
+export const Variables = {
+
+  BASE_URL: 'https://newsapi.org/v2',
+  API_KEY: '835763c0e9814b3fb3c34bc2176704da',
+}
