@@ -26,7 +26,7 @@ const SavedArticles: React.FC = () => {
         const articles = await getFavoriteArticles();
         setSavedArticles(articles);
       } catch (error) {
-        console.error("Failed to load saved articles:", error);
+        console.error("Failed to load favorite articles:", error);
       } finally {
         setLoading(false);
       }
